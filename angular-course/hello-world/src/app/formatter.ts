@@ -1,3 +1,4 @@
+// ASSIGNMENT
 import { Pipe, PipeTransform } from '@angular/core';
 
 // use 'summary' in the template to use this pipe

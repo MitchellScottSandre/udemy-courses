@@ -11,6 +11,7 @@ import { SummaryPipe } from './summary.pipe';
 import { StarButtonComponent } from './star-button/star-button.component';
 import { TitleFormatterPipe } from './formatter';
 import { TitleFormatterComponent } from './title-formatter/title-formatter.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TitleFormatterComponent } from './title-formatter/title-formatter.compo
     SummaryPipe,
     StarButtonComponent,
     TitleFormatterPipe,
-    TitleFormatterComponent
+    TitleFormatterComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
