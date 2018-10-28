@@ -12,6 +12,9 @@ import { StarButtonComponent } from './star-button/star-button.component';
 import { TitleFormatterPipe } from './formatter';
 import { TitleFormatterComponent } from './title-formatter/title-formatter.component';
 import { PanelComponent } from './panel/panel.component';
+import { LikeComponent } from './like/like.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { PanelComponent } from './panel/panel.component';
     StarButtonComponent,
     TitleFormatterPipe,
     TitleFormatterComponent,
-    PanelComponent
+    PanelComponent,
+    LikeComponent,
+    InputFormatDirective,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,

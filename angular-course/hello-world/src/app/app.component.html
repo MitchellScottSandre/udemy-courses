@@ -1,13 +1,27 @@
-<app-panel>
-    <ng-container class="heading">
-        Heading
-    </ng-container>
-    <div class="body">
-        <h2>Test!</h2>
-    </div>
-</app-panel>
-<!-- <app-star-button 
-    [is-selected]="post.isFavourite" 
-    (change)="onFavouriteChanged($event)"
-></app-star-button> -->
-<!-- <app-title-formatter></app-title-formatter> -->
+<zippy title="Shipping Details">
+    Shipping Details Content
+</zippy>
+<zippy title="Billing Details">
+    Billing Details Content
+</zippy>
+
+<!-- <input type="text" appInputFormat [format]="'uppercase'"> -->
+
+<!-- {{ task.assignee?.name }} -->
+
+<!-- <button
+    [ngStyle]="{
+        'backgroundColor': canSave ? 'blue' : 'gray',
+        ...
+    }"
+>
+Save
+</button> -->
+
+<!-- every time you click this button it relaods the entire object and DOM object tree -->
+<!-- <button (click)="loadCourses()">Load Courses</button>
+<ul>
+    <li *ngFor="let course of courses; trackBy: trackCourse">
+        {{ course.name }}
+    </li>
+</ul> -->

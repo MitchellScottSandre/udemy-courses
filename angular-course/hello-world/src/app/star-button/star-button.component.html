@@ -4,4 +4,8 @@
   class="glyphicon"
   [class.glyphicon-star]="isFavourite"
   [class.glyphicon-star-empty]="!isFavourite"
+  [ngClass]="{
+   'glyphicon-star': isSelected,
+   'glyphicon-star-empty': !isSelected 
+  }"
 ></span>
