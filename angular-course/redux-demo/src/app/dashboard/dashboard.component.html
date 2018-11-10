@@ -1,0 +1,4 @@
+<label>Dashboard</label>
+<p>Last Update: {{ lastUpdate | async | date:'medium'}}</p>
+<p>Total Items: {{ totalItems | async }}</p>
+<button (click)="deleteAll()">Delete All</button>
